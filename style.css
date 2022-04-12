@@ -518,6 +518,16 @@ header.title>h3 {
     padding-bottom: 0rem !important
 }
 
+.home .owl-carousel.owl-drag .owl-stage {
+    width: max-content !important;
+    transition: unset !important;
+    transform: unset !important;
+}
+
+.home .owl-carousel.owl-drag .owl-item {
+    width: 7.5rem !important
+}
+
 .home .box-icon-align-top .box-icon-wrapper {
     margin-bottom: .625rem
 }
@@ -816,15 +826,17 @@ table.variations .cell {
     border: solid 1px #999;
     font-size: .81rem !important;
     color: #333 !important;
-    padding: 5px 10px 4px;
+    padding: 7px 10px 7px;
+    height: 1.75rem;
     margin-right: 0.62rem !important
 }
 
 .wd-swatch.active-swatch, .wd-swatch:hover {
     border: solid 2px #f21a1a;
-    padding: 4px 9px 3px;
+    padding: 6px 9px 6px;
     background-color: rgb(255 245 245 / 70%);
-    color: #000
+    height: 1.75rem;
+    color: #000 !important
 }
 
 .single_variation_wrap {
@@ -1299,9 +1311,6 @@ header .whb-top-bar {
     header .whb-color-dark:not(.whb-with-bg) {
         background-color: #f9f9f9;
     }
-    .wd-tools-custom-icon .wishlist-icon img {
-        width: 1.42rem
-    }
 }
 
 /* Header > Center > Search */
@@ -1642,6 +1651,16 @@ address {
 
 
 /*Cart Page----------------------------------------------- */
+
+/* Cart > Progress bar */
+
+.wd-free-progress-bar {
+    border: var(--trdn-border);
+    border-radius: var(--trdn-box-border-rd);
+    box-shadow: var(--trdn-box-sdw);
+    background-color: var(--trdn-body-bg-color)
+}
+
 /* Cart > Cart Notices */
 
 .cart-content-wrapper>.woocommerce-notices-wrapper [role="alert"] {
@@ -1690,12 +1709,12 @@ td.product-remove a:before, .woocommerce-remove-coupon:before,
     .woocommerce-cart-form__contents td.product-thumbnail {
         max-height: none;
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-left: 1.25rem;
         bottom: 1rem
     }
     .woocommerce-cart-form__cart-item td.product-thumbnail img {
-        min-width: 5.5rem;
-        max-width: 5.5rem
+        min-width: 5.25rem;
+        max-width: 5.25rem
     }
     .shop_table_responsive.woocommerce-cart-form__contents tr {
         padding: 1rem 1rem 1rem 7.5rem
