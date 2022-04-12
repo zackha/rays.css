@@ -7,7 +7,6 @@
  Version:      1.0.0
  Text Domain:  woodmart
 */
-
 :root {
     --trdn-border: 1px solid #e6e6e6;
     --trdn-head-bg-color: #fafafa;
@@ -63,7 +62,6 @@
 	margin: 0
 }
 
-
 /* My Account Page > Wallet > Sidebar > Header */
 
 .woo-wallet-sidebar-heading {
@@ -88,7 +86,6 @@
     content: "\f555";
     font-size: 1.5rem
 }
-
 
 /* My Account Page > Wallet > Sidebar */
 
@@ -272,6 +269,7 @@
     box-shadow: 0px 0px 8px #eee;
     margin-bottom: 0.6rem
 }
+
 .woo-wallet-add-amount input[type="submit"] {
     width: 100%;
     background-color: #a10000;
@@ -312,6 +310,8 @@
     font-size: .9rem;
     border-radius: var(--trdn-box-border-rd)
 }
+
+
 
 /* My Account Page-------------------------------------------------------- */
 
@@ -390,7 +390,6 @@
     background-color: #ffe6e6
 }
 
-
 .woocommerce-MyAccount-navigation ul li a:hover, 
 .woocommerce-MyAccount-navigation ul li a:focus {
 	border-radius: var(--trdn-box-border-rd)
@@ -425,7 +424,6 @@ mark {
     font-weight: 700;
     margin: 0.15rem
 }
-
 
 /* Address */
 
@@ -509,8 +507,9 @@ header.title>h3 {
     padding: unset
 }
 
-/* Home Page-------------------------------------------------------- */
 
+
+/* Home Page-------------------------------------------------------- */
 
 /* Home Page > Story */
 
@@ -584,7 +583,6 @@ header.title>h3 {
     border: var(--trdn-border)
 }
 
-
 /* Home Page > Bottom Banner */
 
 @media (max-width: 768px) {
@@ -597,13 +595,6 @@ header.title>h3 {
         border: none
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -638,7 +629,6 @@ header.title>h3 {
     display: none
 }
 
-
 /* Wishlist > Empty */
 
 .wd-empty-wishlist:before {
@@ -648,7 +638,6 @@ header.title>h3 {
     font-weight: 900 !important;
     content: "\f004"
 }
-
 
 
 
@@ -722,8 +711,6 @@ header.title>h3 {
     border: var(--trdn-border)
 }
 
-
-
 .woocommerce-product-gallery .product-image-thumbnail:hover, 
 .woocommerce-product-gallery .product-image-thumbnail.active-thumb {
     opacity: unset !important;
@@ -787,7 +774,6 @@ header.title>h3 {
     }
 }
 
-
 /* Product > Center (Descriptions) */
 
 .summary-inner .product_title {
@@ -809,8 +795,6 @@ header.title>h3 {
 .summary-inner del .amount {
     margin-right: 0.3rem
 }
-
-
 
 .summary-inner table.variations {
     margin-bottom: 0rem
@@ -842,7 +826,6 @@ table.variations .cell {
     background-color: rgb(255 245 245 / 70%);
     color: #000
 }
-
 
 .single_variation_wrap {
     float: left;
@@ -888,7 +871,6 @@ table.variations .cell {
     margin-bottom: 0rem !important
 }
 
-
 .tabs-location-summary .tabs-layout-accordion {
     margin-top: 2.5rem !important;
     margin-bottom: .6rem !important
@@ -916,7 +898,6 @@ table.variations .cell {
     font-size: .8rem;
     margin-bottom: 0rem
 }
-
 
 @media (max-width: 768px) {
     .summary-inner .product_title {
@@ -1026,7 +1007,6 @@ table.variations .cell {
 
 
 
-
 /* Shop Page and Search-------------------------------------------------------- */
 
 /* Shop > Side */
@@ -1049,8 +1029,6 @@ table.variations .cell {
 .woocommerce-widget-layered-nav-list::-webkit-scrollbar {
     width: .5rem
 }
-
-
 
 .widget_layered_nav {
     margin-bottom: 1rem;
@@ -1112,7 +1090,6 @@ table.variations .cell {
     margin-right: .7rem
 }
 
-
 .wd-shop-tools .woocommerce-ordering.wd-style-underline select {
         border: var(--trdn-border);
         border-radius: var(--trdn-box-border-rd);
@@ -1127,7 +1104,6 @@ table.variations .cell {
 .wd-shop-tools>* {
     margin-bottom: 0rem
 }
-
 
 @media (max-width: 768px) {
     .offcanvas-sidebar-mobile .shop-content-area:not(.col-lg-12) .wd-shop-tools:not(:last-child) {
@@ -1304,13 +1280,7 @@ nav[class*="-pagination"] li .page-numbers {
 
 
 
-
-
-
-
-
 /* Header-------------------------------------------------------- */
-
 
 /* Header > Top Bar */
 
@@ -1333,7 +1303,6 @@ header .whb-top-bar {
         width: 1.42rem
     }
 }
-
 
 /* Header > Center > Search */
 
@@ -1380,8 +1349,6 @@ header .searchform .searchsubmit {
     background-color: #f7f7f7
 }
 
-
-
 .search-results-wrapper .autocomplete-suggestion {
     flex: 1 1 12.25rem;
     border: var(--trdn-border);
@@ -1398,8 +1365,6 @@ header .searchform .searchsubmit {
     border-radius: var(--trdn-box-border-rd)
 }
 
-
-
 .search-results-wrapper .view-all-results {
     text-transform: var(--trdn-txt-trnsfrm);
     background-color: var(--trdn-body-bg-color);
@@ -1408,8 +1373,6 @@ header .searchform .searchsubmit {
     margin: .5rem;
     border-radius: var(--trdn-box-border-rd)
 }
-
-
 
 .search-results-wrapper .wd-scroll {
     --scrollbar-track-bg: none;
@@ -1506,6 +1469,7 @@ li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
 }
 
 
+
 /* Header > Bottom > Nav */
 
 .wd-nav[class*="wd-style-underline"] .nav-link-text {
@@ -1527,13 +1491,14 @@ li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
 
 /* Headers By Pages---------------------------------------------- */
 
-
 /* Checkout Page*/
+
 .woocommerce-checkout header.whb-header {
     margin-bottom: 0rem
 }
 
 /* Cart Page*/
+
 .woocommerce-cart header.whb-header {
     margin-bottom: 2rem
 }
@@ -1545,16 +1510,19 @@ li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
 }
 
 /* Shop Page*/
+
 .archive header.whb-header {
     margin-bottom: 1rem
 }
 
 /* Product Page*/
+
 .single-product header.whb-header {
     margin-bottom: 0rem
 }
 
 /* Home Page*/
+
 .home header.whb-header {
     margin-bottom: 1rem
 }
@@ -1566,14 +1534,17 @@ li.woocommerce-MyAccount-navigation-link--customer-logout a:before {
 }
 
 /* Wishlist Page*/
+
 .page-id-71251 header.whb-header {
     margin-bottom: 1rem
 }
 
 /* Account Page*/
+
 .woocommerce-account header.whb-header {
     margin-bottom: 1rem
 }
+
 
 
 /* Thankyou Page---------------------------------------------- */
@@ -1833,8 +1804,6 @@ td.product-remove a:before, .woocommerce-remove-coupon:before,
 
 
 
-
-
 /*Mini Cart Side -------------------------------------------------------------- */
 
 .cart-widget-side {
@@ -1968,6 +1937,7 @@ td.product-remove a:before, .woocommerce-remove-coupon:before,
 }
 
 
+
 /*Mini Cart Dropdown -------------------------------------------------------------- */
 
 .wd-dropdown-cart.dropdown-cart {
@@ -2033,11 +2003,6 @@ td.product-remove a:before, .woocommerce-remove-coupon:before,
 
 
 
-
-
-
-
-
 /* Tables, Input and Global----------------------------------------------- */
 
 .shop_table {
@@ -2100,7 +2065,6 @@ table td {
     }
 }
 
-
 input[type='email'], 
 input[type='date'], 
 input[type='search'], 
@@ -2115,7 +2079,6 @@ body .select2-container--default .select2-selection--single {
     background-color: #f3f3f3;
     border: var(--trdn-border)
 }
-
 
 input[type="email"]:focus,
 input[type="date"]:focus,
@@ -2149,11 +2112,6 @@ div.wpcf7-response-output,
 .woocommerce-info {
     border-radius: var(--trdn-box-border-rd)
 }
-
-
-
-
-
 
 
 
