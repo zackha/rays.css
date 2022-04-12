@@ -1654,7 +1654,7 @@ address {
 
 /* Cart > Progress bar */
 
-.wd-free-progress-bar {
+.cart-table-section .wd-free-progress-bar {
     border: var(--trdn-border);
     border-radius: var(--trdn-box-border-rd);
     box-shadow: var(--trdn-box-sdw);
