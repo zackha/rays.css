@@ -702,12 +702,14 @@ header.title>h3 {
 
 .single-product .woocommerce-product-gallery .labels-rectangular {
     top: 1rem;
-    right: 2rem
+    right: 2rem;
+    left: auto
 }
 
 @media (max-width: 768px) {
     .single-product .woocommerce-product-gallery .labels-rectangular {
-        right: 1rem
+        right: 1rem;
+        left: auto
     }
 }
 
