@@ -902,7 +902,7 @@ table.variations .cell {
     text-transform: var(--trdn-txt-trnsfrm) !important
 }
 
-.wd-accordion .wd-scroll-content {
+.tabs-layout-accordion.wd-accordion .wd-scroll-content {
     max-height: 11rem;
     font-size: .75rem;
     color: #333
