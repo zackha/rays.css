@@ -903,7 +903,7 @@ table.variations .cell {
 }
 
 .wd-accordion .wd-scroll-content {
-    max-height: 11rem !important;
+    max-height: 11rem;
     font-size: .75rem;
     color: #333
 }
